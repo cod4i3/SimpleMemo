@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>memo</title>
+    <link rel="stylesheet" type="text/css" href="popup.css">
+</head>
+
+<body>
+    <textarea rows="10" cols="50" id="contents" placeholder="メモスペース">
+        </textarea>
+    <p id="charCounter"></p>
+    <p id="byteCounterUTF8"></p>
+    <p id="byteCounterShiftJIS"></p>
+    <p id="lineCounter"></p>
+</body>
+<!--
+    スクリプト、セーブ等色々
+    最初はボタンでのセーブだったがカウント機能などが欲しく
+    色々改造する内にこうなった
+-->
+<script src="src/popup.js"></script>
+
+</html>

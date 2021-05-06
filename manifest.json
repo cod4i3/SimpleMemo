@@ -1,0 +1,25 @@
+{
+    "name": "memo",
+    "version": "1.0",
+    "description": "this_is_simple_memo",
+    "manifest_version": 2,
+    "browser_action": {
+        "default_title": "simple_memo",
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "images/memo.png",
+            "32": "images/memo.png",
+            "64": "images/memo.png",
+            "128": "images/memo.png"
+        }
+    },
+    "icons": {
+        "16": "images/memo.png",
+        "32": "images/memo.png",
+        "64": "images/memo.png",
+        "128": "images/memo.png"
+    },
+    "permissions": [
+        "storage"
+    ]
+}
